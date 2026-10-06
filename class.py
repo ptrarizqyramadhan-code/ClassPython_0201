@@ -27,3 +27,7 @@ width = float(input("Enter the width: "))
 while width == 0:
     print("Input cannot be 0!")
     width = float(input("Enter the width: "))
+
+
+# Membuat object dari class Rectangle
+rectangle = Rectangle(length, width)
