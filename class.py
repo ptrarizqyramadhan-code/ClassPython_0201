@@ -34,3 +34,6 @@ rectangle = Rectangle(length, width)
 
 # Menampilkan object menggunakan __str__
 print(rectangle)
+
+# Memanggil function circumference
+print("Circumference:", rectangle.circumference(), "cm")
