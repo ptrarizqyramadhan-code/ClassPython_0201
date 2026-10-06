@@ -16,3 +16,14 @@ class Rectangle:
     def __str__(self):
         return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
 
+
+# Input
+length = float(input("Enter the length: "))
+while length == 0:
+    print("Input cannot be 0!")
+    length = float(input("Enter the length: "))
+
+width = float(input("Enter the width: "))
+while width == 0:
+    print("Input cannot be 0!")
+    width = float(input("Enter the width: "))
