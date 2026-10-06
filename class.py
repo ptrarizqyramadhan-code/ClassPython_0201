@@ -31,3 +31,6 @@ while width == 0:
 
 # Membuat object dari class Rectangle
 rectangle = Rectangle(length, width)
+
+# Menampilkan object menggunakan __str__
+print(rectangle)
