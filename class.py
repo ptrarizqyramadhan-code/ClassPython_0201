@@ -37,3 +37,6 @@ print(rectangle)
 
 # Memanggil function circumference
 print("Circumference:", rectangle.circumference(), "cm")
+
+# Memanggil function area
+print("Area:", rectangle.area(), "cm²")
